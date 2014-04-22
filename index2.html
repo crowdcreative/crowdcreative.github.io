@@ -1,0 +1,547 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+        <title>CrowdCreative</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="description" content="Template by Dry Themes"/>
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP"/>
+        <meta name="author" content="DryThemes"/>
+        <link rel="shortcut icon" href="favicon.png"/>
+
+        <link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'/>
+        <link href="css/fonts/stylesheet.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="css/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="css/site.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css"/>
+		
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="js/code4net.slideshow.js"></script>
+		<script type="text/javascript" src="js/pop-up-mask.js"></script>
+        <script type="text/javascript" src="js/on.scroll.js"></script>
+        <script type="text/javascript" src="js/ajax.js"></script>
+		<script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/modernizr.js"></script>
+		<script type="text/javascript" src="js/dotimeout.min.js"></script>
+
+
+		
+		
+		<script>
+		   $(document).ready(function(){
+	           
+			     $(this).scrollTop(0);
+			   
+		         $("#logo-a").animate({top:"+=5px"}, 1400 ).animate ({top:"-=5px"}, 1400 ).animate({top:"+=5px"}, 1400 );
+		         $("#logo-b").animate({top:"+=8px"}, 1400 ).animate ({top:"-=8px"}, 1400 ).animate({top:"+=8px"}, 1400 );
+		         $("#logo-c").animate ({top:"-=5px"}, 1400 ).animate({top:"+=5px"}, 1400 ).animate ({top:"-=5px"}, 1400 );
+		         $("#logo-d").animate ({top:"-=8px"}, 1400 ).animate({top:"+=8px"}, 1400 ).animate ({top:"-=8px"}, 1400 );
+		         $("#logo-e").animate({top:"+=5px"}, 1400 ).animate ({top:"-=5px"}, 1400 ).animate({top:"+=5px"}, 1400 );
+		         $("#logo-f").animate({top:"+=8px"}, 1400 ).animate ({top:"-=8px"}, 1400 ).animate({top:"+=8px"}, 1400 );
+		         $("#logo-g").animate ({top:"-=5px"}, 1400 ).animate({top:"+=5px"}, 1400 ).animate ({top:"-=5px"}, 1400 );
+		         $("#logo-h , #coolidea").animate ({top:"-=8px"}, 1400 ).animate({top:"+=8px"}, 1400 ).animate ({top:"-=8px"}, 1400 );
+		         $("#navegador-a").show().delay("1000").animate({"bottom":"+=50px"});
+				 
+				 $("#navegador-a").click(function(){
+				   $(this).show().delay("1000").fadeOut("slow");
+				   $("#navegador-b").show().delay("1000").animate({"bottom":"+=50px"});
+				 });
+
+                 $("#navegador-b").click(function(){
+				   $(this).show().delay("1000").fadeOut("slow");
+				   $("#navegador-c").show().delay("1000").animate({"bottom":"+=50px"});
+				 }); 
+
+                 $("#navegador-c").click(function(){
+				   $(this).show().delay("1000").fadeOut("slow");
+				   $("#navegador-d").hide().delay("1000").fadeIn("slow");
+				 }); 				 
+				 
+				$("#jonatas").mouseover(function(){
+						$("#jonatas-bg").animate({"width":"220px" , "height":"220px" , "margin-left":"40px","margin-top":"-1100px"},{queue:false,duration:200});
+						$(".nome",this).animate({"margin-top":"0px"},{queue:false,duration:100});
+						$(".ajuste",this).css({"width":"+=100px"});
+						$(".faz",this).hide();
+						$(".sobre",this).show();
+				});
+				
+				$("#jonatas").mouseleave(function(){
+					    $("#jonatas-bg").animate({"width":"100px" , "height":"100px" , "margin-left":"90px","margin-top":"-1050px"},{queue:false,duration:200});
+						$(".nome",this).animate({"margin-top":"15px"},{queue:false,duration:100});
+					    $(".ajuste",this).css({"width":"-=100px"});
+						$(".faz",this).show();
+						$(".sobre",this).hide();
+				 });
+				 
+				$("#marcelo").mouseover(function(){
+						$("#marcelo-bg").animate({"width":"220px" , "height":"220px" , "margin-left":"160px","margin-top":"-900px"},{queue:false,duration:200});
+						$(".nome",this).animate({"margin-top":"0px"},{queue:false,duration:200});
+						$(".ajuste",this).css({"width":"+=100px"});
+						$(".faz",this).hide();
+						$(".sobre",this).css({"left":"-40px"}).show();
+				});
+				
+				$("#marcelo").mouseleave(function(){
+					    $("#marcelo-bg").animate({"width":"100px" , "height":"100px" , "margin-left":"210px","margin-top":"-850px"},{queue:false,duration:200});
+						$(".nome",this).animate({"margin-top":"15px"},{queue:false,duration:200});
+					    $(".ajuste",this).css({"width":"-=100px"});
+						$(".faz",this).show();
+						$(".sobre",this).css({"left":"0px"}).hide();
+				 });
+				 
+				$("#natan").mouseover(function(){
+						$("#natan-bg").animate({"width":"220px" , "height":"220px" , "margin-left":"240px","margin-top":"-1200px"},{queue:false,duration:200});
+						$(".nome",this).animate({"margin-top":"0px"},{queue:false,duration:200});
+						$(".ajuste",this).css({"width":"+=100px"});
+						$(".faz",this).hide();
+						$(".sobre",this).css({"left":"-40px"}).show();
+				});
+				
+				$("#natan").mouseleave(function(){
+					    $("#natan-bg").animate({"width":"100px" , "height":"100px" , "margin-left":"290px","margin-top":"-1150px"},{queue:false,duration:200});
+						$(".nome",this).animate({"margin-top":"15px"},{queue:false,duration:200});
+					    $(".ajuste",this).css({"width":"-=100px"});
+						$(".faz",this).show();
+						$(".sobre",this).css({"left":"0px"}).hide();
+				 });
+				 
+				 $("#atila").mouseover(function(){
+						$("#atila-bg").animate({"width":"220px" , "height":"220px" , "margin-left":"20px","margin-top":"-860px"},{queue:false,duration:200});
+						$(".nome",this).animate({"margin-top":"0px"},{queue:false,duration:200});
+						$(".ajuste",this).css({"width":"+=100px"});
+						$(".faz",this).hide();
+						$(".sobre",this).css({"left":"-40px"}).show();
+				});
+				
+				$("#atila").mouseleave(function(){
+					    $("#atila-bg").animate({"width":"100px" , "height":"100px" , "margin-left":"70px","margin-top":"-810px"},{queue:false,duration:200});
+						$(".nome",this).animate({"margin-top":"15px"},{queue:false,duration:200});
+					    $(".ajuste",this).css({"width":"-=100px"});
+						$(".faz",this).show();
+						$(".sobre",this).css({"left":"0px"}).hide();
+				 });
+				 
+				 $("#portoalegrevc").mouseover(function(){
+						$("#portoalegrevc-bg").animate({"width":"220px" , "height":"220px" , "margin-left":"40px","margin-top":"-2660px"},{queue:false,duration:200});
+						$(".nome",this).animate({"margin-top":"0px"},{queue:false,duration:100});
+						$(".ajuste",this).css({"width":"+=100px"});
+						$(".faz",this).hide();
+						$(".sobre",this).show();
+				});
+				
+				$("#portoalegrevc").mouseleave(function(){
+					    $("#portoalegrevc-bg").animate({"width":"100px" , "height":"100px" , "margin-left":"90px","margin-top":"-2600px"},{queue:false,duration:200});
+						$(".nome",this).animate({"margin-top":"15px"},{queue:false,duration:100});
+					    $(".ajuste",this).css({"width":"-=100px"});
+						$(".faz",this).show();
+						$(".sobre",this).hide();
+				 });
+				 
+				  $("#meosite").mouseover(function(){
+						$("#meosite-bg").animate({"width":"220px" , "height":"220px" , "margin-left":"-10px","margin-top":"-2400px"},{queue:false,duration:200});
+						$(".nome",this).animate({"margin-top":"0px"},{queue:false,duration:200});
+						$(".ajuste",this).css({"width":"+=100px"});
+						$(".faz",this).hide();
+						$(".sobre",this).css({"left":"35px"}).show();
+				});
+				
+				$("#meosite").mouseleave(function(){
+					    $("#meosite-bg").animate({"width":"100px" , "height":"100px" , "margin-left":"40px","margin-top":"-2360px"},{queue:false,duration:200});
+						$(".nome",this).animate({"margin-top":"15px"},{queue:false,duration:200});
+					    $(".ajuste",this).css({"width":"-=100px"});
+						$(".faz",this).show();
+						$(".sobre",this).hide();
+				 });
+				 
+				 $("#economia").hover(
+				 function(){
+					$("#economia-bg").fadeIn();
+				 },
+				 function(){
+					$("#economia-bg").fadeOut();
+				 });
+				 
+				 
+				 $("#criativa").hover(
+				 function(){
+					$("#criativa-bg").fadeIn();
+				 },
+				 function(){
+					$("#criativa-bg").fadeOut();
+				 });
+		  
+				$("#pluralidade").hover(
+				 function(){
+					$("#pluralidade-bg").fadeIn();
+				 },
+				 function(){
+					$("#pluralidade-bg").fadeOut();
+				 });
+				 
+				 $("#logoa").hover(
+				 function(){
+					$("#logoa-bg").fadeIn();
+				 },
+				 function(){
+					$("#logoa-bg").fadeOut();
+				 });
+		  
+				$("#logob").hover(
+				 function(){
+					$("#logob-bg").fadeIn();
+				 },
+				 function(){
+					$("#logob-bg").fadeOut();
+				 });
+		  
+		         $(window).bind('scroll',function(e){
+                 parallaxScroll();
+                 });
+				 
+                 function parallaxScroll(){
+                 var scrolled = $(window).scrollTop();
+				 $('#take-me-home-bg').css('top',(0+(scrolled*.9))+'px');
+				 
+				 
+		         $('#logo-a').css('top',(0+(scrolled*1.2))+'px');
+		         $('#logo-b').css('top',(0+(scrolled*1.3))+'px');
+				 $('#logo-c').css('top',(0+(scrolled*1.1))+'px');
+		         $('#logo-d').css('top',(0+(scrolled*1.2))+'px');
+				 $('#logo-e').css('top',(0+(scrolled*1.3))+'px');
+		         $('#logo-f').css('top',(0+(scrolled*1.1))+'px');
+				 $('#logo-g').css('top',(0+(scrolled*1.2))+'px');
+		         $('#logo-h').css('top',(0+(scrolled*1.3))+'px');
+				 $('#coolidea').css('top',(0+(scrolled*1.3))+'px');
+
+				 $('.about-scroll').css('top',(0+(scrolled*1.2))+'px');
+				 $('#bloco-a').css('top',(0+(scrolled*1.3))+'px');
+				 $('#bloco-b').css('top',(0+(scrolled*1.4))+'px');
+				 $('#bloco-ab').css('top',(0+(scrolled*1.3))+'px');
+				 $('#jonatas , #jonatas-bg').css('top',(0+(scrolled*1.4))+'px');
+				 $('#marcelo , #marcelo-bg').css('top',(0+(scrolled*1.3))+'px');
+				 $('#natan , #natan-bg').css('top',(0+(scrolled*1.4))+'px');
+				 $('#atila , #atila-bg').css('top',(0+(scrolled*1.4))+'px');
+				 
+				 $('#portoalegrevc , #portoalegrevc-bg').css('top',(0+(scrolled*1.4))+'px');
+				 $('#meosite , #meosite-bg').css('top',(0+(scrolled*1.4))+'px');
+				
+				$('.services-scroll').css('top',(0+(scrolled*1.2))+'px');
+				$('#bloco-c').css('top',(0+(scrolled*1.3))+'px');
+				$('#bloco-d').css('top',(0+(scrolled*1.4))+'px');
+				$('#bloco-e').css('top',(0+(scrolled*1.3))+'px');
+				$('#bloco-f').css('top',(0+(scrolled*1.4))+'px');
+				$('#bloco-g').css('top',(0+(scrolled*1.3))+'px');
+				$('#bloco-h').css('top',(0+(scrolled*1.4))+'px');
+				
+				
+                 }
+				 
+				 
+				 
+				$("#goku").click(function(){
+                    $("#branco").fadeIn("slow");	
+                    $.doTimeout( 1500, function(){
+                        $(document).scrollTop(0);
+						$("#exposure").fadeIn();
+						$(".logo").hide();
+                    });
+                    $.doTimeout( 1500, function(){
+                        $("#branco").fadeOut("slow");
+					});
+					
+					$.doTimeout( 2600, function(){	
+						// INICIO DA ANIMACAO
+						$("#exposure").fadeOut(2000);
+						$(".logo").fadeIn(2000);
+						$("#logo-a").animate({top:"+=5px"}, 1400 ).animate ({top:"-=5px"}, 1400 ).animate({top:"+=5px"}, 1400 );
+		                $("#logo-b").animate({top:"+=8px"}, 1400 ).animate ({top:"-=8px"}, 1400 ).animate({top:"+=8px"}, 1400 );
+		                $("#logo-c").animate ({top:"-=5px"}, 1400 ).animate({top:"+=5px"}, 1400 ).animate ({top:"-=5px"}, 1400 );
+						$("#logo-d").animate ({top:"-=8px"}, 1400 ).animate({top:"+=8px"}, 1400 ).animate ({top:"-=8px"}, 1400 );
+						$("#logo-e").animate({top:"+=5px"}, 1400 ).animate ({top:"-=5px"}, 1400 ).animate({top:"+=5px"}, 1400 );
+						$("#logo-f").animate({top:"+=8px"}, 1400 ).animate ({top:"-=8px"}, 1400 ).animate({top:"+=8px"}, 1400 );
+						$("#logo-g").animate ({top:"-=5px"}, 1400 ).animate({top:"+=5px"}, 1400 ).animate ({top:"-=5px"}, 1400 );
+						$("#logo-h , #coolidea").animate ({top:"-=8px"}, 1400 ).animate({top:"+=8px"}, 1400 ).animate ({top:"-=8px"}, 1400 );
+					    $("#navegador-a").hide().delay("2600").fadeIn("slow");
+						$("#navegador-a a").html("").append("Keep Calm e Clica Aqui...mais uma vez");						
+						// FIM DA ANIMACAO
+					});
+					
+					$("#navegador-b , #navegador-c").hide().css({"bottom":"-=50px"});
+                    						
+		        });
+		   });
+		</script>
+		
+		
+		
+		<!--[if lt IE 10]>
+			<script type="text/javascript" src="js/PIE.js"></script>
+		<![endif]-->	
+    </head>
+    <body>
+		<div id="mask"></div>
+		<table class="doc-loader">
+            <tr>
+                <td>
+                    <img src="images/doc_loader/loading.gif" alt="loading..." />
+                </td>
+            </tr>
+        </table> 
+		<div class="navigation-hide">
+			<img src="images/navigate.png" alt="navigate_img"/>
+			<ul>  
+				<li>  
+					<a href="#take-me-home" class="nav-active rounded"><span>Take Me Home</span></a>  
+				</li>  
+				<li>  
+					<a href="#about" class="rounded"><span>About</span></a>  
+				</li>  
+				<li>  
+					<a href="#services" class="rounded"><span>Services</span></a>    
+				</li>  
+				<li>  
+					<a href="#showcase" class="rounded"><span>Showcase</span></a>    
+				</li>
+				<li>  
+					<a href="#our-team" class="rounded"><span>Our Team</span></a>    
+				</li>   
+				<li>  
+					<a href="#news" class="rounded"><span>News</span></a>  
+				</li> 
+				<li>  
+					<a href="#contact-us" class="rounded"><span>Contact Us</span></a>  
+				</li>  
+			</ul>  
+    	</div>       
+		<div id="scrollable">
+			<div class="section first-section">
+			<div class="navigation"><div id="navegador-a"><a href="#about" class="rounded">O QUE É A REDE?</a></div></div>
+			<div class="navigation"><div id="navegador-ab"><a href="#about" class="rounded">O QUE É A CROWDCREATIVE(CC)?</a></div></div>
+			<div class="navigation"><div id="navegador-ac"><a href="#about" class="rounded">INTERAGIR NA CC</a></div></div>
+			<div class="navigation"><div id="navegador-ad"><a href="#about" class="rounded">O QUE JÁ SURGIU DA CC</a></div></div>
+			<div id="grade"></div>
+			<div id="bloco-home"></div>
+			<div id="take-me-home-bg"></div>
+			<div id="exposure"></div>
+			
+				<div id="economia-bg">
+					<span>no momento atual, a economia, mesmo que social, deve pensar de forma a agir e interagir com os três setores: Estado; mercado e ONGs.</span>
+				</div>
+				
+				<div id="criativa-bg">
+					<span>as ideias e habilidades interpessoais dos integrantes da rede criam nosso capital humano, que dá vida a projetos colaborativos e de valor social e econômico.</span>
+				</div>
+				
+				<div id="pluralidade-bg">
+					<span>nossa união cria uma rede colaborativa aberta organizada de forma distribuida, onde todos interagem, criam e participam de forma livre, na sintetização de ideias e elaboração de projetos.</span>
+				</div>
+				
+				<div id="logoa-bg">
+					<span>
+						Uma rede aberta de pessoas criativas, cada uma com suas habilidades ninjas, que juntas conseguem criar projetos legais para um mundo melhor.<br/><br/>
+						Decidimos empreender em rede ao invés de empreender sozinhos, de optar pela ética do cuidado e não pelo EUprendedorismo e de sermos ecocêntricos ao invés de egocêntricos.
+					</span>
+				</div>
+				
+				<div id="logob-bg">
+					<span>A criatividade vai muito além da manisfestação de conhecimento em formas abstratas e concretas individuais, ela surge a apartir da união e sintetização de várias ideias que partem dos diversos participantes da rede.<br/><br/>
+					É a união e a fragmentação que ocorrem em todo o processo de sintetização, que fazem as habilidades, ideias e opiniões de todos da rede — sejam eles designers ou assistentes sociais — resultarem em algo maior; que surge de diversos contextos de pensamentos, que muitas vezes dá origem ao novo.</span>
+				</div>
+				
+				<div id="preloading-a"></div>
+				<div id="preloading-b"></div>
+				
+				<div id="slogan">
+								a <span id="economia">economia</span> <span id="criativa">criativa</span> em sua <span id="pluralidade">pluralidade</span>
+				</div>
+			
+				<div class="container">
+					<div class="header-wrapper">
+						<div class="header">
+							<div id="logoa">
+					
+							</div>
+							<div id="logob">
+					
+							</div>
+						</div>
+					</div>      
+					
+				           
+				</div> 
+			</div>
+			<div id="about"></div>
+			<div class="navigation"><div id="navegador-b"><a href="#services" class="rounded">Continuando...</a></div></div>
+			<div class="section about">
+			<div id="grade"></div>
+			<div id="bloco-a"></div>
+			<div id="bloco-b"></div>
+			<div id="bloco-ab"></div>
+				<div class="container about-scroll">
+					<div class="arrow 01">
+						
+					</div> 
+					<div class="subheader" style="margin-top:230px">
+						<div class="subheader-icon"></div>
+						<div class="subheader-text">
+							a rede social<span></span>
+						</div>
+						
+					</div>         
+					<div class="column-455 m-right-70 m-top-50">
+						<div class="m-bottom-40 summary">
+                        	Um coletivo de pessoas criativas, <br/>cada uma com suas habilidades ninjas, que juntas conseguem criar projetos legais para um mundo melhor!
+						</div>
+					
+                    	<div class="m-bottom-40 summary">
+							Decidimos empreender em rede ao invés de empreender sozinhos, de optar pela <a href="http://youtu.be/5nivihNqbXk">ética do cuidado</a> e não pelo EUprendedorismo e de sermos ecocêntricos ao invés de egocêntricos.
+						</div>
+                	</div>
+					<div id="jonatas">
+					     <div class="ajuste">
+                          <span class="nome"><a href="https://vimeo.com/44130258" target="_blank">All work and all play</a></span>
+                          <span class="faz">a geração Y e sua forma de organização</span>  
+						  <div class="sobre">Video da Box1824, uma empresa de pesquisa especializada em tendências de comportamento e consumo</div>
+						 </div>  
+                	</div>
+					<div id="jonatas-bg" class="quem">
+					   
+                	</div>
+					<div id="marcelo">
+					     <div class="ajuste">
+                          <span class="nome"><a href="http://vimeo.com/14830386" target="_blank">Cooperação</a></span>
+                          <span class="faz">educação transformada em processo de aprendizagem</span>  
+						  <div class="sobre" style="margin-left:90px">apresentação do pesquisador brasileiro Silvio Meira, da área de Engenharia de Software, sobre cooperação</div>
+						 </div>  
+                	</div>
+					
+					<div id="marcelo-bg" class="quem">
+					   
+                	</div>
+					
+					<div id="natan" class="quem">
+					     <div class="ajuste">
+                          <span class="nome"><a href="https://vimeo.com/10260319" target="_blank">Redes sociais</a></span>
+                          <span class="faz">introdução sobre as organizações de redes sociais</span>  
+						  <div class="sobre" style="margin-left:90px">como a organização distribuida em uma rede social pode afetar na cocriação e colaboração de uma sociedade</div>
+						 </div>  
+                	</div>
+					
+					<div id="natan-bg" class="quem">
+					   
+                	</div>
+					
+					<div id="atila" class="quem">
+					     <div class="ajuste">
+                          <span class="nome"><a href="http://www.ted.com/talks/lang/pt-br/nicholas_christakis_the_hidden_influence_of_social_networks.html" target="_blank">A influência das redes sociais</span>
+                          <span class="faz">você moldado pela rede social</span>  
+						  <div class="sobre"  style="margin-left:90px">Nicholas Christakis monitora como uma ampla variedade de características pode se difundir de pessoa a pessoa, demonstrando como sua localização na rede pode impactar sua vida.</div>
+						 </div>  
+                	</div>
+					
+					<div id="atila-bg" class="quem">
+					   
+                	</div>
+					
+            		<div class="clear"></div>
+				</div>                
+            </div>
+			<div id="services"></div>
+			<div class="section services">
+			<div id="grade"></div>
+
+			<div id="bloco-d"></div>
+			<div id="bloco-e"></div>
+		
+			<div class="navigation"><div id="navegador-c"><a href="#showcase" class="rounded">Vamos Conversar?</a></div></div>
+				<div class="container services-scroll">
+					<div class="arrow 02">
+						
+					</div> 
+					<div class="subheader">
+						<div class="subheader-icon"></div>
+						<div class="subheader-text">
+							creative
+						</div>
+						
+					</div> 
+					<div class="column-640 m-top-50" style="display:none">
+						<div class="summary">
+							Lembrando: somos um grupo de pessoas, cada um com suas habilidades ninjas, que blá, blá, blá...						
+						</div>
+					</div>
+					<div class="column-300 m-left-40 m-top-50" style="display:none;">
+						<p>
+							Resumidamente o que fazemos é: observar e estudar uma marca e seu mercado; apontar e criar mudanças que agreguem valor as pessoas envolvidas com a marca e melhorar a experiência dos usuários com a marca.
+						</p>
+					</div>
+					
+					
+					<div class="column-455 m-top-70 dizeres">
+						<ul class="services-list">
+							
+							<li>
+								
+							
+								<p>
+									Por meio da criatividade e habilidades do coletivo criamos projetos legais que engajam a comunidade e os três setores gerando valor social e econômico.
+								</p>
+							</li>
+							
+							
+						    
+						</ul>
+					</div>
+					
+					<a herf="http://www.portoalegre.vc">
+					<div id="portoalegrevc">
+					     <div class="ajuste">
+                          <span class="nome">portoalegre.vc</span>
+                          <span class="faz">mapa social da cidade</span>  
+						  <div class="sobre">Por meio de um mapa interativo são destacados os pontos que se encaixam nos direitos sociais dos cidadãos.</div>
+						 </div>  
+                	</div>
+					</a>
+					
+					<div id="portoalegrevc-bg" class="quem">
+					</div>
+					
+					<a herf="http://www.meosite.com">
+					<div id="meosite">
+					     <div class="ajuste">
+                          <span class="nome">meosite.com</span>
+                          <span class="faz">endereço digital</span>  
+						  <div class="sobre" style="margin-left:20px">Criação de sites de qualidade para pequenas empresas e organizações com custo baixo.</div>
+						 </div>  
+                	</div>
+					</a>
+					
+					<div id="meosite-bg" class="quem">
+					</div>
+					
+				</div>
+			</div>
+			<div id="showcase"></div>
+			<div class="section showcase">
+			<div id="grade"></div>
+                <div class="container showcase-scroll">
+					
+					<div id="contato">
+					    <span>
+						oi@crowdcreative.com<br/>
+						
+						
+						</span>
+					
+					</div>
+					
+					<div id="goku"><span>Teletransporte... Raaa!!!</span></div>
+					
+				</div>       
+            </div>
+			<div id="branco"></div>
+    </body>
+
+</html>

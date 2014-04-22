@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+        <title>CrowdCreative</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="description" content="Template by Dry Themes"/>
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP"/>
+        <meta name="author" content="DryThemes"/>
+        <link rel="shortcut icon" href="favicon.png"/>
+
+        <link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'/>
+        <link href="css/fonts/stylesheet.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="css/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="css/site5.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css"/>
+		
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="js/code4net.slideshow.js"></script>
+		<script type="text/javascript" src="js/pop-up-mask.js"></script>
+        <script type="text/javascript" src="js/on.scroll.js"></script>
+        <script type="text/javascript" src="js/ajax.js"></script>
+		<script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/modernizr.js"></script>
+		<script type="text/javascript" src="js/dotimeout.min.js"></script>
+
+
+		
+		
+		<script>
+		   $(document).ready(function(){
+	           
+			     $(this).scrollTop(0);
+				 
+				 
+				 
+				  $(window).bind('scroll',function(e){
+                 parallaxScroll();
+                 });
+				 
+
+ 
+                 function parallaxScroll(){
+                 var scrolled = $(window).scrollTop();
+				 $('#take-me-home-bg').css('top',-(0+(scrolled*.05))+'px');
+				 $('#dis-fixed').css('top',-(0+(scrolled*.15))+'px');
+                 }
+				 
+				 
+			 
+				 $("#economia").hover(
+				 function(){
+					$("#economia-bg").fadeIn();
+					
+					
+					$("#logoa-bg").fadeOut("fast");
+					$("#logoa").css({"background-image": "url('../images/logoa.png')"});
+					$("#logob-bg").fadeOut("fadeout");
+					$("#logob").css({"background-image": "url('../images/logob.png')"});
+				 },
+				 function(){
+					$("#economia-bg").fadeOut("fast");
+				 });
+				 
+				 
+				 $("#criativa").hover(
+				 function(){
+					$("#criativa-bg").fadeIn();
+					
+					$("#logoa-bg").fadeOut("fast");
+					$("#logoa").css({"background-image": "url('../images/logoa.png')"});
+					$("#logob-bg").fadeOut("fast");
+					$("#logob").css({"background-image": "url('../images/logob.png')"});
+				 },
+				 function(){
+					$("#criativa-bg").fadeOut("fast");
+				 });
+		  
+				$("#pluralidade").hover(
+				 function(){
+					$("#pluralidade-bg").fadeIn();
+					
+					$("#logoa-bg").fadeOut("fast");
+					$("#logoa").css({"background-image": "url('../images/logoa.png')"});
+					$("#logob-bg").fadeOut("fast");
+					$("#logob").css({"background-image": "url('../images/logob.png')"});
+				 },
+				 function(){
+					$("#pluralidade-bg").fadeOut("fast");
+				 });
+				 
+				 $("#logoa").hover(function(){
+					$("#logoa-bg").fadeIn();
+					$(this).css({"background-image": "url('../images/logoa-hover.png')"});
+					$("#logob-bg").fadeOut("fast");
+					$("#logob").css({"background-image": "url('../images/logob.png')"});
+				 });
+				 
+				 $("#logoa-bg").mouseleave(function(){
+					$("#logoa-bg").fadeOut("fast");
+					$("#logoa").css({"background-image": "url('../images/logoa.png')"});
+				 });
+		  
+				 
+				 $("#logob").hover(function(){
+					$("#logob-bg").fadeIn();
+					$(this).css({"background-image": "url('../images/logob-hover.png')"});
+					$("#logoa-bg").fadeOut("fast");
+					$("#logoa").css({"background-image": "url('../images/logoa.png')"});
+				 });
+				 
+				 $("#logob-bg").mouseleave(function(){
+					$("#logob-bg").fadeOut("fast");
+					$("#logob").css({"background-image": "url('../images/logob.png')"});
+				 });
+				 
+				$(".navigation a").click(function(){
+					$(".navigation a").css({"color":"#ffffff"});
+					$(this).css({"color":"#ED145B"});
+				});
+				
+		         $(window).bind('scroll',function(e){
+                 parallaxScroll();
+                 });
+				 
+               
+				 
+				 
+				 
+				$("#goku").click(function(){
+                    $("#branco").fadeIn("slow");	
+                    $.doTimeout( 1500, function(){
+                        $(document).scrollTop(0);
+						$("#exposure").fadeIn();
+						$(".logo").hide();
+                    });
+                    $.doTimeout( 1500, function(){
+                        $("#branco").fadeOut("slow");
+					});
+					
+					$.doTimeout( 2600, function(){	
+						// INICIO DA ANIMACAO
+						$("#exposure").fadeOut(2000);
+						$(".logo").fadeIn(2000);
+					  
+												
+						// FIM DA ANIMACAO
+					});
+					
+					$("#navegador-b , #navegador-c").hide().css({"bottom":"-=50px"});
+                    						
+		        });
+		   });
+		</script>
+		
+		
+		
+		<!--[if lt IE 10]>
+			<script type="text/javascript" src="js/PIE.js"></script>
+		<![endif]-->	
+    </head>
+    <body>
+		<div id="mask"></div>
+		<table class="doc-loader">
+            <tr>
+                <td>
+                    <img src="images/doc_loader/loading.gif" alt="loading..." />
+                </td>
+            </tr>
+        </table> 
+		       
+		<div id="scrollable">
+		<div id="take-me-home-bg"></div>
+			<div class="section first-section">
+			<div id="dis-fixed"></div>
+			
+			
+			
+			<div id="navigation-bg"></div>
+			
+			<div class="navigation">
+			<ul>
+			<li><div id="navegador-a"><a style="color:#ED145B" href="#scrollable">TOPO</a></div></li>
+			<li><div id="navegador-a"><a href="#about">O QUE É REDE SOCIAL?</a></div></li>
+			<li><div id="navegador-a"><a href="#services" >O QUE É A CROWDCREATIVE(CC)?</a></div></li>
+			<li><div id="navegador-a"><a href="#showcase" >INTERAGIR NA CC</a></div></li>
+			<li><div id="navegador-a"><a href="#surgiu" >JÁ PASSOU PELA CC</a></div></li>
+			
+			</ul>
+			<div id="facebook"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FCrowdCreative&amp;send=false&amp;layout=button_count&amp;width=230&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=30&amp;appId=236068809754091" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:230px; height:30px;" allowTransparency="true"></iframe></div>
+			</div>
+			
+			<div id="grade"></div>
+			<div id="bloco-home"></div>
+			
+			<div id="exposure"></div>
+			
+				<div id="economia-bg">
+					<span>No momento atual, a economia criativa, mesmo que social, deve pensar em criar valor social e econômico e a agir e interagir com os três setores: Estado;<br/> mercado e ONGs.</span>
+				</div>
+				
+				<div id="criativa-bg">
+					<span>Novas soluções para velhos problemas, uma frase que sintetiza o uso do conhecimento e da criatividade para empreender, não se limitando apenas às chamadas "Indústrias Criativas".</span>
+				</div>
+				
+				<div id="pluralidade-bg">
+					<span>Nossa interação cria uma rede social colaborativa, organizada de forma distribuida, onde todos cocriam de forma livre, o que pode dar origem a clusters de interesse, que possivelmente serão<br/> os grupos de desenvolvimento<br/> dos projetos.</span>
+				</div>
+				
+				<div id="logoa-bg">
+					<span>
+						Uma rede social de pessoas, distribuida e aberta, que compartilham o desejo de produzir <a style="border-bottom: 1px dotted #555555;" target="_blank" href="http://pt.wikipedia.org/wiki/Intelig%C3%AAncia_coletiva">conhecimento comunitariamente</a>.<br/><br/>
+						Pessoas que decidiram empreender em rede ao invés de empreender sozinhas, de optarem pela <a style="border-bottom: 1px dotted #555555;" target="_blank" href="http://www.youtube.com/watch?v=5nivihNqbXk">ética do cuidado</a> e não pelo EUprendedorismo e de serem <a style="border-bottom: 1px dotted #555555;" target="_blank" href="http://pt.wikipedia.org/wiki/Ecocentrismo">ecocêntricas</a> ao invés de egocêntricas.
+					</span>
+				</div>
+				
+				<div id="logob-bg">
+					<span>A criatividade vai além da manisfestação individual de conhecimento em formas abstratas e concretas; há um tipo de criatividade que só surge da interação das redes sociais: a <a style="border-bottom: 1px dotted #555555;" target="_blank" href="http://crowdcreative.org/pdf/Criatividade%20coletiva.pdf">criatividade coletiva</a>.<br/><br/>
+					Desta criatividade coletiva das pessoas, sejam designers ou assistentes sociais, surge o novo. Criatividade esta que pode ser utilizada para a criação e aprimoramento de projetos e empreendimentos.</span>
+				</div>
+				
+				<div id="preloading-a"></div>
+				<div id="preloading-b"></div>
+				
+				<div id="slogan">
+								a <span id="economia">economia</span> <span id="criativa">criativa</span> em sua <span id="pluralidade">pluralidade</span>
+				</div>
+			
+				<div class="container">
+					<div class="header-wrapper">
+						<div class="header">
+							<div id="logoa">
+					
+							</div>
+							<div id="logob">
+					
+							</div>
+						</div>
+					</div>      
+					
+				           
+				</div> 
+				
+				
+			</div>
+			<div id="about"></div>
+			
+			<div class="section about">
+			<div id="grade"></div>
+			
+				<div class="container about-scroll">
+				<div id="dis-fixed"></div>
+				<div id="bloco-a"></div>
+			<div id="bloco-b"></div>
+			<div id="bloco-ab"></div>
+					<div class="arrow 01">
+						
+					</div> 
+					<div class="subheader" style="margin-top:20px">
+						<div class="subheader-icon"></div>
+						<div class="subheader-text">
+							rede social<span></span>
+						</div>
+						
+					</div>         
+					<div class="column-455 m-right-70 m-top-50">
+						<div class="m-bottom-40 summary">
+                        	Redes sociais são pessoas interagindo, não ferramentas, como o Facebook. Sendo assim, o conhecimento presente em uma rede não é um objeto e não pode ser arquivado e nem gerenciado. 
+						</div>
+					
+                    	<div class="m-bottom-40 summary">
+							Esta interação, então, não é a mesma coisa que troca de informação; pois ao bolar uma arquitetura da informação acabamos eregindo uma escola, ou seja, uma burocracia do ensinamento, inevitavelmente centralizada, o que prejudica a criatividade coletiva.
+						</div>
+						
+						<div class="m-bottom-40 summary">
+							Para que exista uma rede colaborativa, é preciso que esta rede seja distribuida, que seja uma <a style="border-bottom: 1px dotted #555555;" target="_blank" href="http://crowdcreative.org/pdf/n%e3o%20escolas.pdf">não-escola</a>, onde o aprendizado é coletivo e parte da interação de todos da rede. 
+						</div>
+						<div class="m-bottom-40 summary">
+						Saiba mais na <a style="border-bottom: 1px dotted #555555;" target="_blank" href="http://www.escoladeredes.net">Escola de Redes</a>.
+						</div>
+                	</div>
+					
+					<div id="vimeo-a"><!-- This version of the embed code is no longer supported. Learn more: https://vimeo.com/help/faq/embedding --> <object width="230" height="130"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=10260319&amp;force_embed=1&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ED145B&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=10260319&amp;force_embed=1&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ED145B&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="230" height="130"></embed></object></div>
+					
+					<div id="vimeo-b"><iframe width="230" height="129" src="http://www.youtube.com/embed/r-2yzQZitSM" frameborder="0" allowfullscreen></iframe></div>
+					
+					
+					
+					
+					
+            		
+				
+			</div>                
+            </div>
+			<div id="services"></div>
+			<div class="section services">
+			
+		
+
+			<div id="grade"></div>
+		
+			
+				<div class="container services-scroll">
+				
+				<div id="dis-fixed"></div>
+					<div id="bloco-d"></div>
+					<div id="bloco-e"></div>
+				
+					<div class="arrow 02">
+						
+					</div> 
+					<div class="subheader">
+						<div class="subheader-icon"></div>
+						<div class="subheader-text">
+							crowdcreative(cc)
+						</div>
+						
+					</div> 
+					
+					
+					
+					<div class="column-455 m-top-70 dizeres">
+						<ul class="services-list">
+							
+							<li>
+								<p>
+								CrowdCreative é uma rede de pessoas interessadas em <a style="border-bottom: 1px dotted #555555;" target="_blank" href="http://www.cezarmagalhaes.com.br/2011/02/o-que-e-empreender/">empreender</a>, no real sentido da palavra, de "buscar tornar real uma ideia", não exatamente ser uma empresa, ou algo que vai lhe deixar milionário; mas em fazer algo que acredite, seja legal, útil e que crie valor econômico e social.
+								</p>
+							</li>
+							
+							<li>
+								<p>
+								A CC não é uma organização hierárquica e nem formal, são apenas pessoas conectadas em rede, que cooperam entre si para desenvolverem ou aprimorarem empreendimentos. É a velha história: imagine o que pode surgir da interação de um físico, um publicitário, um filósofo e um estudante do ensino médio. Com certeza algo interessante, sendo que aqui as pessoas foram representadas por suas "profissões", mas o que realmente importa são as interações e seus contextos.
+								</p>
+							</li>
+							
+							<li>
+								<p>
+								A rede CC organiza, conecta, promove e estimula: a interação entre as pessoas; a criatividade coletiva; a criação de conhecimento e empreendimentos. Mas não é a CC, e sim as pessoas conectadas a rede CC que fazem ou não fazem estas coisas.
+								</p>
+							</li>
+							
+							<li>
+								<p>
+								Nossa interação, então, pode dar origem a clusters de interesse, que possivelmente serão os grupos de desenvolvimento do empreendimento, que irão se auto-organizar. Nosso objetivo aqui é: fazer e criar comunitariamente o que sozinho seria inviável.
+								</p>
+							</li>
+						    
+						</ul>
+					</div>
+					
+					
+				
+				</div>
+			</div>
+			<div id="showcase"></div>
+			<div class="section showcase">
+			<div id="grade"></div>
+			<div class="container showcase-scroll">
+			<div id="dis-fixed"></div>
+                <div class="subheader">
+						<div class="subheader-icon"></div>
+						<div class="subheader-text">
+							interagir na cc
+						</div>
+						
+					</div> 
+					
+					
+					
+					<div class="column-455 m-top-80 dizeres">
+						<ul class="services-list">
+							
+							<li>
+								<p>
+								A rede está recém começando. Então a melhor maneira de a própria rede decidir como vamos interagir é começarmos a criar a rede. A melhor ferramenta então seria um grupo no Facebook <a target="_blank" style="color: #ED145B" href="http://www.facebook.com/groups/crowdcreative/">www.facebook.com/groups/crowdcreative</a>.
+								</p>
+							</li>
+							
+							<li>
+								<p>
+								Se entendeu o que é uma rede social distribuida e compartilha o objetivo da CC, então entre na rede!
+								</p>
+							</li>
+							
+							<li>
+								<p>
+								
+								</p>
+							</li>
+							
+							<li>
+								<p>
+								
+								</p>
+							</li>
+						    
+						</ul>
+					</div>   
+					</div>
+            </div>
+			<div id="surgiu"></div>
+			<div class="section surgiu">
+			<div id="grade"></div>
+			<div class="container surgiu-scroll">
+			<div id="dis-fixed"></div>
+			
+                <div class="subheader">
+						<div class="subheader-icon"></div>
+						<div class="subheader-text">
+							passou pela cc
+						</div>
+						
+					</div> 
+					
+					
+					
+					<div style="margin-top:80px" class="column-455 m-top-80 dizeres">
+						<ul class="services-list">
+							
+							<li>
+								<p>
+								<a style="border-bottom: 1px dotted #555555;; font-weight: bold; font-size: 20px;" target="_blank" href="http://www.portoalegre.vc">portoalegre.vc</a><br/>Lazer, saúde, esporte, educação e cultura em um Mapa Social segmentado por bairros onde os criadores somos nós.
+								</p>
+							</li>
+							
+							<li>
+								<p>
+								<a style="border-bottom: 1px dotted #555555;; font-weight: bold; font-size: 20px;" target="_blank" href="#">meosite</a><br/>Criação de landingpage institucional de baixo custo para: ONGs, associações sem fins lucrativos, startups e pequenos empreendimentos com o objetivo de facilitar o acesso e conhecimento dos cidadãos a estes serviços.
+								</p>
+							</li>
+							
+							<li>
+								<p>
+								
+								</p>
+							</li>
+							
+							<li>
+								<p>
+								
+								</p>
+							</li>
+						    
+						</ul>
+					</div>   
+					</div>
+            </div>
+    </body>
+
+</html>
