@@ -98,7 +98,7 @@
 					$("#logob").css({"background-image": "url('../images/logob.png')"});
 				 });
 				 
-				 $("#logoa-bg").mouseleave(function(){
+				 $("#dis-fixed").mouseenter(function(){
 					$("#logoa-bg").fadeOut("fast");
 					$("#logoa").css({"background-image": "url('../images/logoa.png')"});
 				 });
@@ -111,7 +111,7 @@
 					$("#logoa").css({"background-image": "url('../images/logoa.png')"});
 				 });
 				 
-				 $("#logob-bg").mouseleave(function(){
+				 $("#dis-fixed").mouseenter(function(){
 					$("#logob-bg").fadeOut("fast");
 					$("#logob").css({"background-image": "url('../images/logob.png')"});
 				 });
@@ -448,6 +448,12 @@
 					</div>   
 					</div>
             </div>
+
+            <div style="display:none">
+            	<img src="../images/logoa.png">
+            	<img src="../images/logob.png">
+            </div>
+
     </body>
 
 </html>
