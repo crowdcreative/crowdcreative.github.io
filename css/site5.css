@@ -918,6 +918,7 @@ display:none;
     width: 520px;
     z-index: 2;
 	display:none;
+    transition-duration: 1.3s;
 }
 
 #logoa-bg span{
@@ -974,6 +975,7 @@ display:none;
     width: 610px;
     z-index: 2;
 	display:none;
+    transition-duration: 1.3s;
 }
 
 #logob-bg span{
