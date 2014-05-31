@@ -78,6 +78,27 @@ a:hover {
 
 /******************************************************************************/
 
+
+
+ul.bjqs-controls {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    z-index: 9999;
+}
+
+.bjqs-prev{
+	float: left;
+}
+
+.bjqs-next{
+	float: right;
+}
+
+
 .subheader {
     margin-top: 10px;
     text-align: left;
@@ -96,6 +117,7 @@ a:hover {
     font-family: 'TeXGyreAdventorBold', Arial, Helvetica, sans-serif;
     font-size: 75px;
     letter-spacing: -0.08em;
+    line-height: 0.8em;
     vertical-align: middle;
     text-align: left;
     text-shadow: 1px 1px 1px #000000;
@@ -593,42 +615,86 @@ outline: none;
     z-index: 2;
     display: none;
 }
+
 #bloco-e {
-    border-radius: 50% 50% 50% 50%;
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 50%;
     height: 970px;
     left: -120px;
-    opacity: 0.9;
     position: absolute;
-    top: -169px;
+    top: 0;
     width: 970px;
     z-index: -1;
 }
+#bloco-e .subheader-text {
+    color: #ED145B;
+    display: inline-block;
+    font-family: 'TeXGyreAdventorBold',Arial,Helvetica,sans-serif;
+    font-size: 75px;
+    left: 300px;
+    letter-spacing: -0.08em;
+    line-height: 0.8em;
+    position: relative;
+    text-align: left;
+    text-shadow: 1px 1px 1px #000000;
+    top: 120px;
+    vertical-align: middle;
+    z-index: 100;
+}
 #bloco-f {
-    background: none repeat scroll 0 0 black;
-    border-radius: 100% 100% 100% 100%;
-    height: 380px;
-    left: 50%;
-    margin-left: 135px;
-    margin-top: -2634px;
-    opacity: 0.45;
+    background: none repeat scroll 0 0 #111111;
+    border-radius: 50%;
+    height: 700px;
+    left: 70px;
     position: absolute;
-    top: 3000px;
-    width: 380px;
-    z-index: 2;
+    top: 220px;
+    width: 700px;
+    z-index: -1;
+}
+#bloco-f .subheader-text {
+    color: #ED145B;
+    display: inline-block;
+    font-family: 'TeXGyreAdventorBold',Arial,Helvetica,sans-serif;
+    font-size: 55px;
+    left: 180px;
+    letter-spacing: -0.08em;
+    line-height: 0.8em;
+    position: relative;
+    text-align: left;
+    text-shadow: 1px 1px 1px #000000;
+    top: 90px;
+    vertical-align: middle;
+    z-index: 100;
 }
 #bloco-g {
-    background: none repeat scroll 0 0 black;
-    border-radius: 100% 100% 100% 100%;
-    height: 380px;
-    left: 50%;
-    margin-left: 120px;
-    margin-top: -2455px;
-    opacity: 0.50;
+    background: none repeat scroll 0 0 #222222;
+    border-radius: 50%;
+    height: 480px;
+    left: 230px;
     position: absolute;
-    top: 3000px;
-    width: 380px;
-    z-index: 2;
+    top: 400px;
+    width: 470px;
+    z-index: -1;
 }
+#bloco-g .subheader-text {
+    color: #ED145B;
+    display: inline-block;
+    font-family: 'TeXGyreAdventorBold',Arial,Helvetica,sans-serif;
+    font-size: 41px;
+    left: 75px;
+    letter-spacing: -0.08em;
+    line-height: 0.8em;
+    position: relative;
+    text-align: left;
+    text-shadow: 1px 1px 1px #000000;
+    top: 200px;
+    vertical-align: middle;
+    z-index: 100;
+}
+
+
+
+
 /******************************************************************************/
 
 /*  BACKGROUND                                                                */

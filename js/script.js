@@ -8,7 +8,7 @@ $(document).ready(function() {
 	});
 
   $('#my-slideshow').bjqs({
-    'height' : 1000,
+    'height' : 600,
     'width' : 1000,
     'responsive' : true,
 
@@ -19,8 +19,11 @@ $(document).ready(function() {
 		'automatic' : true, // automatic
 
 		// control and marker configuration
+		'centercontrols' : false, // center controls verically		
 		'nexttext' : '>>', // Text for 'next' button (can use HTML)
 		'prevtext' : '<<', // Text for 'previous' button (can use HTML)
+		'showmarkers' : false, // Show individual slide markers
+		'centermarkers' : false, // Center markers horizontally		
 
 		// interaction values
 		'keyboardnav' : true, // enable keyboard navigation
