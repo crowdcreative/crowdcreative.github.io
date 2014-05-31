@@ -235,7 +235,7 @@ a:hover {
     font-size: 11px;
     padding: 5px;
 }
-#navegador-a a: hover {} #navegador-ab {
+#navegador-a a:hover {} #navegador-ab {
     color: #AAAAAA;
     font-size: 15px;
     height: 45px;
@@ -253,7 +253,7 @@ a:hover {
     font-size: 11px;
     padding: 5px;
 }
-#navegador-ab a: hover {
+#navegador-ab a:hover {
     background: white;
     color: black;
 }
@@ -275,7 +275,7 @@ a:hover {
     font-size: 11px;
     padding: 5px;
 }
-#navegador-ac a: hover {
+#navegador-ac a:hover {
     background: white;
     color: black;
 }
@@ -297,7 +297,7 @@ a:hover {
     font-size: 11px;
     padding: 5px;
 }
-#navegador-ad a: hover {
+#navegador-ad a:hover {
     background: white;
     color: black;
 }
@@ -320,7 +320,7 @@ a:hover {
     font-size: 13px;
     padding: 5px;
 }
-#navegador-b a: hover {
+#navegador-b a:hover {
     background: white;
     color: black;
 }
@@ -343,7 +343,7 @@ a:hover {
     font-size: 13px;
     padding: 5px;
 }
-#navegador-c a: hover {
+#navegador-c a:hover {
     background: white;
     color: black;
 }
@@ -387,6 +387,13 @@ a:hover {
     width: 180px;
     color: #000000;
 }
+
+#my-slideshow{
+	margin: auto;
+	z-index: 2;
+}
+
+
 /******************************************************************************/
 
 /*  BOTTOM ARROW                                                              */
@@ -797,7 +804,7 @@ outline: none;
     text-align: center;
     width: 210px;
 }
-#economia: hover {
+#economia:hover {
     color: #ed145b;
     cursor: default;
 }
@@ -824,7 +831,7 @@ outline: none;
     text-align: center;
     width: 210px;
 }
-#criativa: hover {
+#criativa:hover {
     color: #ed145b;
     cursor: default;
 }
@@ -851,7 +858,7 @@ outline: none;
     text-align: center;
     width: 230px;
 }
-#pluralidade: hover {
+#pluralidade:hover {
     color: #ed145b;
     cursor: default;
 }
@@ -903,7 +910,7 @@ outline: none;
     background-image: url("../images/logob-hover.png");
     display: none;
 }
-#logob: hover {
+#logob:hover {
     background-image: url("../images/logob-hover.png");
     background-repeat: no-repeat;
     float: left;
@@ -1058,7 +1065,7 @@ outline: none;
 .socio ul li a: active {
     background-position: left bottom;
 }
-.socio ul li a: hover {
+.socio ul li a:hover {
     background-position: left bottom;
 }
 a.socio_twitter {

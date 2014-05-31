@@ -7,6 +7,26 @@ $(document).ready(function() {
 		parallaxScroll();
 	});
 
+  $('#my-slideshow').bjqs({
+    'height' : 1000,
+    'width' : 1000,
+    'responsive' : true,
+
+		// animation values
+		'animtype' : 'slide', // accepts 'fade' or 'slide'
+		'animduration' : 650, // how fast the animation are
+		'animspeed' : 12000, // the delay between each slide
+		'automatic' : true, // automatic
+
+		// control and marker configuration
+		'nexttext' : '>>', // Text for 'next' button (can use HTML)
+		'prevtext' : '<<', // Text for 'previous' button (can use HTML)
+
+		// interaction values
+		'keyboardnav' : true, // enable keyboard navigation
+		'hoverpause' : true, // pause the slider on hover    
+  });	
+
 	function parallaxScroll() {
 		var scrolled = $(window).scrollTop();
 		$('#take-me-home-bg').css('top', -(0 + (scrolled * .05)) + 'px');
