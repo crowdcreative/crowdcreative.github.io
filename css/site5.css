@@ -692,6 +692,10 @@ outline: none;
     z-index: 100;
 }
 
+#rede, #cooperativa, #empreendimentos{
+	position: relative;
+}
+
 
 
 

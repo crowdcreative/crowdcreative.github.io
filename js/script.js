@@ -33,7 +33,7 @@ $(document).ready(function() {
 	function parallaxScroll() {
 		var scrolled = $(window).scrollTop();
 		$('#take-me-home-bg').css('top', -(0 + (scrolled * .05)) + 'px');
-		$('#dis-fixed').css('top', -(0 + (scrolled * .15)) + 'px');
+		$('#dis-fixed').css('top', -(0 + (scrolled * .10)) + 'px');
 	}
 	$("#economia").hover(
 		function() {

@@ -49,7 +49,7 @@ $(document).ready(function() {
 	}
 	markNav();
 	$(window).scroll(function() {markNav();});
-	$('.navigation a').each(function(){
+	$('.navigation a, .services a').each(function(){
 		$(this).click(function(event){
 			event.preventDefault();
 			scrollLock = true;
