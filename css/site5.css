@@ -158,7 +158,7 @@ ul.bjqs-controls {
     height: 50px;
     left: 50%;
     position: absolute;
-    top: 3003px;
+    top: 6133px;
     width: 50px;
 }
 #interagir {
@@ -739,10 +739,10 @@ outline: none;
 }
 .showcase-scroll {
     left: 50%;
-    margin-left: -330px;
+    margin-left: -400px;
     position: absolute;
     top: 170px;
-    width: 490px;
+    width: 800px;
 }
 .surgiu {
     height: 1000px;
@@ -815,6 +815,24 @@ outline: none;
 /*  HEADER                                                                    */
 
 /******************************************************************************/
+
+
+.people{
+    display:block;
+}
+
+.people-a{
+    display:block;
+}
+
+.people .name{
+    display:block;    
+}
+
+.people .bio{
+    display:block;
+}
+
 
 .header-wrapper {
     height: 130px;
