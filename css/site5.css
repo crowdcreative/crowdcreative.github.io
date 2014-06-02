@@ -263,6 +263,7 @@ fechar:hover{
 }
 .navigation ul {
     margin: 0;
+    padding: 0;
 }
 .navigation ul li {
     display: inline-block;
@@ -663,6 +664,10 @@ outline: none;
     background: #ED145B;
 }
 
+#bloco-e:hover .subheader-text {
+    color: #FFFFFF;
+}
+
 #bloco-e .subheader-text {
     color: #ED145B;
     display: inline-block;
@@ -693,6 +698,10 @@ outline: none;
     background: #ED145B;
 }
 
+#bloco-f:hover .subheader-text {
+    color: #FFFFFF;
+}
+
 #bloco-f .subheader-text {
     color: #ED145B;
     display: inline-block;
@@ -721,6 +730,10 @@ outline: none;
 #bloco-g:hover{
     cursor: pointer;
     background: #ED145B;
+}
+
+#bloco-g:hover .subheader-text {
+    color: #FFFFFF;
 }
 
 #bloco-g .subheader-text {
@@ -978,7 +991,7 @@ outline: none;
 #economia-bg span {
     float: left;
     font-family: 'Armata', tahoma, arial;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 20px;
     margin-left: 25px;
     margin-top: 115px;
@@ -1005,7 +1018,7 @@ outline: none;
 #criativa-bg span {
     float: left;
     font-family: 'Armata', tahoma, arial;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 20px;
     margin-left: 25px;
     margin-top: 115px;
@@ -1032,7 +1045,7 @@ outline: none;
 #pluralidade-bg span {
     float: left;
     font-family: 'Armata', tahoma, arial;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 20px;
     margin-left: 35px;
     margin-top: 130px;

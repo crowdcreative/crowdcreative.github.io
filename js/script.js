@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 
   $('#my-slideshow').bjqs({
-    'height' : 600,
+    'height' : 900,
     'width' : 1000,
     'responsive' : true,
 
