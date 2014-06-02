@@ -278,7 +278,7 @@ fechar:hover{
 }
 #navegador-a a {
     background: none repeat scroll 0 0 black;
-    font-family: 'Trebuchet MS';
+    font-family: 'Armata';
     font-size: 11px;
     padding: 5px;
 }
@@ -296,7 +296,7 @@ fechar:hover{
 }
 #navegador-ab a {
     background: none repeat scroll 0 0 black;
-    font-family: 'Trebuchet MS';
+    font-family: 'Armata';
     font-size: 11px;
     padding: 5px;
 }
@@ -318,7 +318,7 @@ fechar:hover{
 }
 #navegador-ac a {
     background: none repeat scroll 0 0 black;
-    font-family: 'Trebuchet MS';
+    font-family: 'Armata';
     font-size: 11px;
     padding: 5px;
 }
@@ -340,7 +340,7 @@ fechar:hover{
 }
 #navegador-ad a {
     background: none repeat scroll 0 0 black;
-    font-family: 'Trebuchet MS';
+    font-family: 'Armata';
     font-size: 11px;
     padding: 5px;
 }
@@ -977,7 +977,7 @@ outline: none;
 }
 #economia-bg span {
     float: left;
-    font-family: 'Trebuchet MS', tahoma, arial;
+    font-family: 'Armata', tahoma, arial;
     font-size: 12px;
     line-height: 20px;
     margin-left: 25px;
@@ -1004,7 +1004,7 @@ outline: none;
 }
 #criativa-bg span {
     float: left;
-    font-family: 'Trebuchet MS', tahoma, arial;
+    font-family: 'Armata', tahoma, arial;
     font-size: 12px;
     line-height: 20px;
     margin-left: 25px;
@@ -1031,7 +1031,7 @@ outline: none;
 }
 #pluralidade-bg span {
     float: left;
-    font-family: 'Trebuchet MS', tahoma, arial;
+    font-family: 'Armata', tahoma, arial;
     font-size: 12px;
     line-height: 20px;
     margin-left: 35px;
@@ -1066,8 +1066,8 @@ outline: none;
 }
 #logoa-bg span {
     float: left;
-    font-family: 'Trebuchet MS', tahoma, arial;
-    font-size: 14px;
+    font-family: 'Armata', tahoma, arial;
+    font-size: 12px;
     line-height: 20px;
     margin-left: 80px;
     margin-top: 115px;
@@ -1116,8 +1116,8 @@ outline: none;
 }
 #logob-bg span {
     float: right;
-    font-family: 'Trebuchet MS', tahoma, arial;
-    font-size: 14px;
+    font-family: 'Armata', tahoma, arial;
+    font-size: 12px;
     line-height: 20px;
     margin-right: 80px;
     margin-top: 180px;
