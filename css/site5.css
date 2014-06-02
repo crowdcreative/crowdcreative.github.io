@@ -906,11 +906,7 @@ outline: none;
     float: left;
     width: 100px;
 }
-.people-a {
-    left: -50px;
-    position: absolute;
-    top: 170px;
-}
+
 .people .image {
     border-radius: 50%;
     float: left;
@@ -928,6 +924,18 @@ outline: none;
 }
 .people .bio {
     display: block;
+}
+
+.people-a {
+    left: -50px;
+    position: absolute;
+    top: 170px;
+}
+
+.people-b {
+    left: 320px;
+    position: absolute;
+    top: 90px;
 }
 
 
