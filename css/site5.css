@@ -641,6 +641,12 @@ outline: none;
     display: none;
 }
 
+.section.surgiu > iframe {
+    margin-top: 70px;
+    position: relative;
+    z-index: 6;
+}
+
 #bloco-e {
     background: none repeat scroll 0 0 #000000;
     border-radius: 50%;
@@ -651,6 +657,12 @@ outline: none;
     width: 970px;
     z-index: -1;
 }
+
+#bloco-e:hover{
+    cursor: pointer;    
+    background: #ED145B;
+}
+
 #bloco-e .subheader-text {
     color: #ED145B;
     display: inline-block;
@@ -675,6 +687,12 @@ outline: none;
     width: 700px;
     z-index: -1;
 }
+
+#bloco-f:hover{
+    cursor: pointer;    
+    background: #ED145B;
+}
+
 #bloco-f .subheader-text {
     color: #ED145B;
     display: inline-block;
@@ -699,6 +717,12 @@ outline: none;
     width: 470px;
     z-index: -1;
 }
+
+#bloco-g:hover{
+    cursor: pointer;
+    background: #ED145B;
+}
+
 #bloco-g .subheader-text {
     color: #ED145B;
     display: inline-block;
