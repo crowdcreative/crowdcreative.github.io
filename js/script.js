@@ -31,7 +31,51 @@ $(document).ready(function() {
 		$(".sociosfera").fadeIn();
 	});	
 
+	$(".links").click(function(){
+		$(".links").removeClass("destaque")
+		$(this).addClass("destaque");
+	});
 
+	var scrolledd = $(window).scrollTop();
+
+	if (scrolledd < 1000){
+		$(".links").removeClass("destaque");
+		$(".link-a").addClass("destaque");
+	}
+
+	else if (scrolledd > 1000 && scrolledd < 2000){
+		$(".links").removeClass("destaque");
+		$(".link-b").addClass("destaque");				
+	}
+
+	else if (scrolledd > 2000 && scrolledd < 3000){
+		$(".links").removeClass("destaque");
+		$(".link-c").addClass("destaque");		
+	}
+
+	else if (scrolledd > 3500 && scrolledd < 4500){
+		$(".links").removeClass("destaque");
+		$(".link-d").addClass("destaque");		
+	}
+
+	else if (scrolledd > 4500 && scrolledd < 6000){
+		$(".links").removeClass("destaque");
+		$(".link-e").addClass("destaque");		
+	}
+
+	else{
+
+	}
+
+	$(".about").mouseover(function(){
+		$(".links").removeClass("destaque");
+		$(".link-b").addClass("destaque");
+	});	
+
+	$(".sociosfera").mouseover(function(){
+		$(".links").removeClass("destaque");
+		$(".link-c").addClass("destaque");
+	});	
 
   $('#my-slideshow').bjqs({
     'height' : 900,
@@ -138,14 +182,7 @@ $(document).ready(function() {
 			"background-image": "url('../images/logob.png')"
 		});
 	});
-	$(".navigation a").click(function() {
-		$(".navigation a").css({
-			"color": "#ffffff"
-		});
-		$(this).css({
-			"color": "#ED145B"
-		});
-	});
+
 	$(window).bind('scroll', function(e) {
 		parallaxScroll();
 	});

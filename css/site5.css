@@ -9,7 +9,7 @@ body {
     color: #FFFFFF;
     font-family: 'Armata', Arial, Helvetica, sans-serif;
     font-size: 13px;
-    height: 4000px;
+    height: 100%;
     line-height: 25px;
     margin: 0;
     padding: 0;
@@ -953,6 +953,14 @@ outline: none;
 }
 
 .destaque{
+    color: #ED145B;
+}
+
+.destaque a{
+    color: #ED145B;
+}
+
+.links a:hover{
     color: #ED145B;
 }
 
