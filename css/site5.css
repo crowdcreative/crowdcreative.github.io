@@ -120,17 +120,34 @@ ul.bjqs-controls {
     line-height: 0.8em;
     vertical-align: middle;
     text-align: left;
-    text-shadow: 1px 1px 1px #000000;
     color: #ED145B;
 }
-.subheader-text span {
+.fechar {
     display: block;
+    float: right;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 19px;
     font-style: italic;
     letter-spacing: -0.02em;
     margin-top: 24px;
+    cursor: pointer;
 }
+
+fechar:hover{
+    color:#ED145B;
+}
+
+.fechar-icon {
+    display: block;
+    float: right;
+    font-family: helvetica, arial;
+    font-size: 19px;
+    font-style: italic;
+    letter-spacing: -0.02em;
+    margin-top: 24px;
+}
+
+
 .subheader-separator {
     width: 980px;
     height: 30px;
@@ -155,18 +172,16 @@ ul.bjqs-controls {
 }
 #pessoas {
     background: none repeat scroll 0 0 transparent;
-    height: 50px;
-    left: 50%;
-    position: absolute;
-    top: 6133px;
+    left: 0;
+    position: relative;
+    top: 0;
     width: 50px;
 }
 #interagir {
     background: none repeat scroll 0 0 transparent;
-    height: 50px;
-    left: 50%;
-    position: absolute;
-    top: 4003px;
+    left: 0;
+    position: relative;
+    top: 0;
     width: 50px;
 }
 #our-team {
@@ -177,6 +192,16 @@ ul.bjqs-controls {
     top: 8580px;
     width: 50px;
 }
+
+
+.yep{
+
+}
+
+.yep span{
+    
+}
+
 #news {
     background: none repeat scroll 0 0 transparent;
     height: 50px;
@@ -636,7 +661,6 @@ outline: none;
     line-height: 0.8em;
     position: relative;
     text-align: left;
-    text-shadow: 1px 1px 1px #000000;
     top: 120px;
     vertical-align: middle;
     z-index: 100;
@@ -661,7 +685,6 @@ outline: none;
     line-height: 0.8em;
     position: relative;
     text-align: left;
-    text-shadow: 1px 1px 1px #000000;
     top: 90px;
     vertical-align: middle;
     z-index: 100;
@@ -686,7 +709,6 @@ outline: none;
     line-height: 0.8em;
     position: relative;
     text-align: left;
-    text-shadow: 1px 1px 1px #000000;
     top: 200px;
     vertical-align: middle;
     z-index: 100;
@@ -728,7 +750,7 @@ outline: none;
     width: 800px;
 }
 .services {
-    height: 1000px;
+    height: 1180px;
     overflow: hidden;
     position: relative;
 }
@@ -741,11 +763,11 @@ outline: none;
     left: 50%;
     margin-left: -400px;
     position: absolute;
-    top: 170px;
+    top: 0;
     width: 800px;
 }
 .surgiu {
-    height: 1000px;
+    height: 2000px;
     overflow: hidden;
     position: relative;
 }
@@ -817,20 +839,38 @@ outline: none;
 /******************************************************************************/
 
 
-.people{
-    display:block;
+.people {
+    display: block;
+    height: 290px;
+    text-align: left;
+    width: 299px;
 }
-
-.people-a{
-    display:block;
+.people img {
+    float: left;
+    width: 100px;
 }
-
-.people .name{
-    display:block;    
+.people-a {
+    left: -50px;
+    position: absolute;
+    top: 170px;
 }
-
-.people .bio{
-    display:block;
+.people .image {
+    border-radius: 50%;
+    float: left;
+    height: 95px;
+    margin: 0 12px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 95px;
+}
+.people .name {
+    color: #ED145B;
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+.people .bio {
+    display: block;
 }
 
 
@@ -846,6 +886,15 @@ outline: none;
     position: relative;
     z-index: 2;
 }
+
+.destaque{
+    color: #ED145B;
+}
+
+ .rede, .cooperativa, .empreendimentos{
+    display:none;
+}
+
 .logo {
     background: url("../images/logo/logo40.png") no-repeat scroll 0 0 transparent;
     height: 210px;
@@ -1179,7 +1228,7 @@ a.socio_linkedin {
     left: 530px;
     opacity: 0.8;
     position: absolute;
-    top: 140px;
+    top: 160px;
     width: 230px;
     z-index: 99999;    
 }
@@ -1191,7 +1240,7 @@ a.socio_linkedin {
     left: 530px;
     opacity: 0.8;
     position: absolute;
-    top: 330px;
+    top: 350px;
     width: 230px;
     z-index: 99999;
 }

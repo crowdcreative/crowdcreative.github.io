@@ -7,6 +7,32 @@ $(document).ready(function() {
 		parallaxScroll();
 	});
 
+
+
+	$("#bloco-e").click(function(){
+		$(".services").hide();
+		$(".rede").fadeIn();
+	});
+
+
+	$("#bloco-f").click(function(){
+		$(".services").hide();
+		$(".cooperativa").fadeIn();
+	});
+
+
+	$("#bloco-g").click(function(){
+		$(".services").hide();
+		$(".empreendimentos").fadeIn();
+	});	
+
+	$(".fechar").click(function(){
+		$(".services").hide();
+		$(".sociosfera").fadeIn();
+	});	
+
+
+
   $('#my-slideshow').bjqs({
     'height' : 600,
     'width' : 1000,
@@ -33,7 +59,7 @@ $(document).ready(function() {
 	function parallaxScroll() {
 		var scrolled = $(window).scrollTop();
 		$('#take-me-home-bg').css('top', -(0 + (scrolled * .05)) + 'px');
-		$('#dis-fixed').css('top', -(0 + (scrolled * .10)) + 'px');
+		$('#dis-fixed').css('top', -(0 + (scrolled * .15)) + 'px');
 	}
 	$("#economia").hover(
 		function() {
