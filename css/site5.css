@@ -199,7 +199,7 @@ fechar:hover{
 }
 
 .yep span{
-    
+
 }
 
 #news {
@@ -770,7 +770,27 @@ outline: none;
     height: 2000px;
     overflow: hidden;
     position: relative;
+    text-align: center;
 }
+
+
+.yep {
+    margin-top: 60px;
+    position: relative;
+    z-index: 6;
+}
+.yep span {
+    border: 1px solid #ffffff;
+    font-size: 15px;
+    padding: 16px;
+}
+
+.yep span:hover {
+    border: 1px solid #ED145B;
+    color:#ED145B;
+    cursor: pointer;
+}
+
 #facebook {
     height: 30px;
     overflow: hidden;
