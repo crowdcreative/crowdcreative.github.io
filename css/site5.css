@@ -194,13 +194,7 @@ fechar:hover{
 }
 
 
-.yep{
 
-}
-
-.yep span{
-
-}
 
 #news {
     background: none repeat scroll 0 0 transparent;
@@ -823,8 +817,8 @@ outline: none;
 }
 
 .yep span:hover {
-    border: 2px solid #ED145B;
-    color:#ED145B;
+    background: #ED145B;
+    color:#ffffff;
     cursor: pointer;
 }
 
