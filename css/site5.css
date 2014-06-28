@@ -818,6 +818,7 @@ outline: none;
 
 .yep span:hover {
     background: #ED145B;
+    border: 2px solid #ED145B;
     color:#ffffff;
     cursor: pointer;
 }
